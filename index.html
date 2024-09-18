@@ -5,9 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Testing</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .notice {
+        background-color: yellow;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-family: monospace;
+        font-weight: bold;
+        color: red;
+      }
+      .row-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .column-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        gap: 5px;
+      }
+      .card {
+        height: 50%;
+        background-color: purple;
+        border-radius: 15px;
+      }
+      .card-text {
+        text-align: center;
+        font-family: monospace;
+        font-weight: bold;
+        color: white;
+      }
+      .card-img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        background-color: rebeccapurple;
+        border-radius: 15px;
+      }
+      .center {
+        display: block;
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
-    <h1>Don't Expect Much From This Webpage!</h1>
-    <h2>It's For Self Testing Purposes Only</h2>
+    <div class="notice">Don't Expect Much From This Webpage! It's For Self Testing Purposes Only!</div>
+    <div class="row-wrap">
+      <div class="column-wrap">
+        <div class="card">
+          <div class="card-text">Amazon</div>
+          <div class="card-img">
+            <img src="https://th.bing.com/th/id/R.91af37f8ddb88e99c15c35913ccfd132?rik=JzvZ1WfpJgwoPQ&pid=ImgRaw&r=0" width=90% class="center">
+          </div>
+          <div class="card-text">Amazon Echo: A Device That Plays Music, Answers Questions, and Occasionally Orders Things You Didn't Mean to Buy</div>
+        </div>
+        <div class="card">
+          <div class="card-text">Microsoft</div>
+          <div class="card-img">
+            <img src="https://cdn.icon-icons.com/icons2/195/PNG/256/Microsoft_23401.png" width=90% class="center">
+          </div>
+          <div class="card-text">Microsoft Support: Where Our Representatives Will Read from a Script and Tell You to Restart Your Computer, Even If That Won't Fix the Problem</div>
+        </div>
+        <div class="card">
+          <div class="card-text">Windows</div>
+          <div class="card-img">
+            <img src="https://cdn.freebiesupply.com/logos/large/2x/microsoft-windows-22-logo-png-transparent.png" width=90% class="center">
+          </div>
+          <div class="card-text">Windows Defender: Our Antivirus Software That Will Protect You from Most Malware, But Not the Kind That's Really Bad</div>
+        </div>
+      </div>
+      <div class="column-wrap">
+        <div class="card">
+          <div class="card-text">Netflix</div>
+          <div class="card-img">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/101/069/original/netflix-logo-transparent-free-png.png" width=90% class="center">
+          </div>
+          <div class="card-text">Binge-Watching: Our Business Model Depends on You Ignoring Your Responsibilities and Relationships</div>
+        </div>
+        <div class="card">
+          <div class="card-text">Apple</div>
+          <div class="card-img">
+            <img src="https://www.freepnglogos.com/uploads/apple-logo-png/carve-apple-logo-pumpkin-5.png" width=90% class="center">
+          </div>
+          <div class="card-text">Apple Support: Where We'll Charge You for Help with a Problem That's Probably Our Fault</div>
+        </div>
+        <div class="card">
+          <div class="card-text">Walmart</div>
+          <div class="card-img">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/234/original/walmart-transparent-logo-free-png.png" width=90% class="center">
+          </div>
+          <div class="card-text">Everyday Low Prices: Because We Pay Our Employees Minimum Wage and Make Up for It by Charging You Less</div>
+        </div>
+      </div>
+      <div class="column-wrap">
+        <div class="card">
+          <div class="card-text">McDonald's</div>
+          <div class="card-img">
+            <img src="https://www.freepnglogos.com/uploads/mcdonalds-png-logo/mcdonalds-png-emblem-22.png" width=90% class="center">
+          </div>
+          <div class="card-text">Our 'Quality' Ingredients: Where We Use the Cheapest Stuff We Can Find</div>
+        </div>
+        <div class="card">
+          <div class="card-text">Bank of America</div>
+          <div class="card-img">
+            <img src="https://www.pngplay.com/wp-content/uploads/3/Bank-Of-America-Logo-Transparent-Images.png" width=90% class="center">
+          </div>
+          <div class="card-text">Where Your Money is Safe, Until We Decide to Invest It in Something Risky</div>
+        </div>
+        <div class="card">
+          <div class="card-text">UPS</div>
+          <div class="card-img">
+            <img src="https://th.bing.com/th/id/R.d80d747b93207ecbb95ca847485f8c77?rik=OxzCk0HknbGwmg&pid=ImgRaw&r=0" width=90% class="center">
+          </div>
+          <div class="card-text">Our tracking system is just a suggestion. Don't worry, your package is probably just 'out for delivery'... in a parallel universe</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
