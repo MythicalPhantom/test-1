@@ -67,11 +67,23 @@
         z-index: 999999;
       }
       .card:hover {
-        transform: scale(1.03);
+        animation: scale-rotate .25s;
+        transform: scale(1.03)
       }
       .center {
         display: block;
         margin: auto;
+      }
+      @keyframes scale-rotate {
+        0% {
+          transform: scale(1.03) rotate(-1deg);
+        }
+        50% {
+          transform: scale(1.03) rotate(1deg);
+        }
+        100% {
+          transform: scale(1.03) rotate(-1deg);
+        }
       }
     </style>
   </head>
